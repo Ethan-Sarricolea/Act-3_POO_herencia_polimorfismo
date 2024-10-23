@@ -75,6 +75,6 @@ public class Circulo extends FiguraGeometrica {
      */
     @Override
     public String toString(){
-        return("Radio: " + radius + "Area: " + this.calculateArea() + "Perimeter: " + this.calculatePerimeter());
+        return("\nRadio: " + radius + "\nArea: " + this.calculateArea() + "\nPerimeter: " + this.calculatePerimeter());
     }
 }
