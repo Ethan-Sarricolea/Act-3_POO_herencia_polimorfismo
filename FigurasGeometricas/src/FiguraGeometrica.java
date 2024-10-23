@@ -9,7 +9,6 @@ public class FiguraGeometrica {
      * El metodo constructor para el caso en que no se pasen argumentos
      * @author Ethan Yahel Sarricolea Cortés
      * @param void (no requiere nada)
-     * @return void (no returna nada)
      */
     public FiguraGeometrica() {
         this.color = "Blanco";
@@ -18,10 +17,10 @@ public class FiguraGeometrica {
     }
 
     /**
-     * Segundo metodo constructor con recepsion de parametros
+     * Segundo metodo constructor con recepcion de parametros
      * @author Ethan Yahel Sarricolea Cortés
-     * @param void
-     * @return void
+     * @param color (String / cadena con el color de la figura)
+     * @param padding (boolean / esta o no rellena la figura)
      */
     public FiguraGeometrica(String color, boolean padding){
         this.color = color;
@@ -32,7 +31,6 @@ public class FiguraGeometrica {
     /**
      * Metodo getter para obtener el color de la figura
      * @author Ethan Yahel Sarricolea Cortés
-     * @param void
      * @return String (El color de la figura)
      */
     public String getColor(){
@@ -43,7 +41,6 @@ public class FiguraGeometrica {
      * Metodo setter para cambiar el color de la figura
      * @author Ethan Yahel Sarricolea Cortés
      * @param color (String con el nuevo color)
-     * @return void
      */
     public void setColor(String color){
         this.color = color;
@@ -52,7 +49,6 @@ public class FiguraGeometrica {
     /**
      * Metodo getter de relleno de la figura
      * @author Ethan Yahel Sarricolea Cortés
-     * @param void
      * @return padding (Esta o no relleno)
      */
     public boolean getPadding(){
@@ -63,7 +59,6 @@ public class FiguraGeometrica {
      * Metodo setter del relleno de la figura
      * @author Ethan Yahel Sarricolea Cortés Ethan Yahel
      * @param padding (Con o sin relleno)
-     * @return void
      */
     public void setPadding(boolean padding){
         this.padding = padding;
@@ -72,7 +67,6 @@ public class FiguraGeometrica {
     /**
      * Metodo getter de la fecah de creación
      * @author Ethan Yahel Sarricolea Cortés
-     * @param void
      * @return creationDate (El objeto de la fecha de creación)
      */
     public LocalDate getCreationDate(){
@@ -83,7 +77,6 @@ public class FiguraGeometrica {
      * Sobreescritura de metodo toString
      * 
      * @author Ethan Yahel Sarricolea Cortés
-     * @param void
      * @return Cadena con las especificaciones de cada atributo de la figura
      */
     @Override
