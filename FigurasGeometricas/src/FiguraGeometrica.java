@@ -1,4 +1,9 @@
-import java.time.LocalDate;
+/**
+ * Author: Ethan Yahel Sarricolea Cortés
+ * Description: Clase base de figuras geometricas
+ */
+
+ import java.time.LocalDate;
 
 public class FiguraGeometrica {
     private String color;
@@ -81,6 +86,6 @@ public class FiguraGeometrica {
      */
     @Override
     public String toString(){
-        return ( "Color: " + color + " | Padding: " + padding + " | Date: " + creationDate.toString());
+        return ("\nColor: " + color + "\nPadding: " + padding + "\nDate: " + creationDate.toString());
     }
 }
