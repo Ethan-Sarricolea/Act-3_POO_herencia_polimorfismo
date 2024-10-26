@@ -1,5 +1,5 @@
 /*
- * Author: Samuel Salazar
+ * Author: Samuel Salazar / Ethan Yahel
  * Description:
  */
 
