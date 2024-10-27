@@ -6,7 +6,3 @@ Este es el repositorio de la Actividad 3 de Programación Orientada a Objetos - 
 
 + Ethan Yahel Sarricolea Cortés - UV
 + Samuel Salazar - ITM
-
-
-#### Nota:
-No se ha realizado el diagrama de clases, por lo que los codigos están realizados en base al pdf anjuntado en esta misma carpeta.
