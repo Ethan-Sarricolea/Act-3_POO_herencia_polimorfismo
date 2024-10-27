@@ -4,7 +4,8 @@ Este es el repositorio de la Actividad 3 de Programación Orientada a Objetos - 
 
 ## Participantes
 
-+ Ethan Yahel Sarricolea Cortés
++ Ethan Yahel Sarricolea Cortés - UV
++ Samuel Salazar - ITM
 
 
 #### Nota:
