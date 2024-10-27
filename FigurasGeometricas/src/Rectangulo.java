@@ -83,8 +83,8 @@ public class Rectangulo extends FiguraGeometrica {
      * @author Ethan Yahel Sarricolea Cortés
      * @return area del rectangulo
      */
-    public double calculateArea(){
-        return (this.base*this.height);
+    public double getArea(){
+        return this.base*this.height;
     }
 
     /**
@@ -95,8 +95,8 @@ public class Rectangulo extends FiguraGeometrica {
      * @author Ethan Yahel Sarricolea Cortés
      * @return perimetro del rectangulo
      */
-    public double calculatePerimeter(){
-        return (this.base*2 + this.height*2);
+    public double getPerimeter(){
+        return (this.base*2) + (this.height*2);
     }
 
     /**
@@ -109,6 +109,10 @@ public class Rectangulo extends FiguraGeometrica {
      */
     @Override
     public String toString(){
-        return ("\nColor: " + this.color + "\nRelleno: " + this.padding + "\nBase: " + this.base + "\nAltura: " + this.height);
+        return "Rectángulo - Base: " + this.base + ", Altura: " + this.height +
+               ", Área: " + this.getArea() + ", Perímetro: " + this.getPerimeter() +
+               ", Color: " + getColor() + ", Relleno: " + getPadding();
     }
+
+
 }

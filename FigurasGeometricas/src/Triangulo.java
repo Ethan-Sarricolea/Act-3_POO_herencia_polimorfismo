@@ -34,20 +34,20 @@ public class Triangulo extends FiguraGeometrica {
         return lado3;
     }
 
-    // Método para calcular el área 
+    // Método para calcular area utilizando la formula de Herón
     public double getArea() {
-  
-        return (Math.sqrt(3) / 4) * lado1 * lado1;
+        double s = (lado1 + lado2 + lado3) / 2; // Semiperímetro
+        return Math.sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));
     }
 
     // Método para calcular el perímetro
-    public double getPerimetro() {
+    public double getPerimeter() {
         return lado1 + lado2 + lado3;
     }
 
     // Método toString para describir el triángulo
     public String toString() {
         return "Triángulo con lados " + lado1 + ", " + lado2 + ", " + lado3 + 
-               ". Color: " + getColor() + ", Relleno: " + isRelleno();
+               ". Color: " + getColor() + ", Relleno: " + getPadding();
     }
 }
