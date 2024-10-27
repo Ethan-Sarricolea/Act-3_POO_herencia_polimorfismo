@@ -57,7 +57,7 @@ public class Circulo extends FiguraGeometrica {
      * @author Ethan Yahel Sarricolea Cortés
      * @return Area del circulo 
      */
-    public double calculateArea(){
+    public double getArea(){
         return Math.PI*(radius*radius);
     }
 
@@ -65,7 +65,7 @@ public class Circulo extends FiguraGeometrica {
      * @author Ethan Yahel Sarricolea Cortés
      * @return Perimetro del circulo
      */
-    public double calculatePerimeter(){
+    public double getPerimeter(){
         return radius * 2 * Math.PI;
     }
 
@@ -75,6 +75,6 @@ public class Circulo extends FiguraGeometrica {
      */
     @Override
     public String toString(){
-        return("\nRadio: " + radius + "\nArea: " + this.calculateArea() + "\nPerimeter: " + this.calculatePerimeter());
+        return("\nRadio: " + radius + "\nArea: " + this.getArea() + "\nPerimeter: " + this.getPerimeter());
     }
 }

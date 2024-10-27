@@ -5,7 +5,7 @@
 
  import java.time.LocalDate;
 
-public class FiguraGeometrica {
+public class  FiguraGeometrica {
     private String color;
     private boolean padding;
     protected LocalDate creationDate;
